@@ -1,0 +1,16 @@
+# Bash configuration to call from ~/.bashrc
+# 
+# Michael Yu
+# michaelyu@alum.mit.edu
+# 3-8-12
+
+
+alias chimera="ssh -X -oPort=32122 mikeyu@chimera.csail.mit.edu"
+alias ent="ssh -X -oPort=32122 mikeyu@ent.csail.mit.edu"
+alias grenache="ssh -X mikeyu@grenache.ucsd.edu"
+alias genomequery="ssh -X mikeyu@genomequery.ucsd.edu"
+
+export PATH=$PATH:.
+
+alias rm="rm -i"
+alias mv="mv -i"
